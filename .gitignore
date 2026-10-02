@@ -14,3 +14,5 @@ crash.*.log
 # Terraform lock file
 # Keep this file in Git instead:
 # .terraform.lock.hcl
+action-runner
+    
