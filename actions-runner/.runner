@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "DESKTOP-HT8VNMG",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus24.actions.githubusercontent.com/mHxQsNZalTX7HDcbl91Vacec3CRYVRTfgXSytwtmHSTHEneYQ7/",
+  "gitHubUrl": "https://github.com/Omprakash-A/terraform-aws-cicd",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

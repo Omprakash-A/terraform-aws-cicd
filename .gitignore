@@ -9,8 +9,7 @@ crash.log
 crash.*.log
 
 # Sensitive Terraform variables
-*.tfvars
-*.tfvars.json
+
 
 # Terraform lock file
 # Keep this file in Git instead:

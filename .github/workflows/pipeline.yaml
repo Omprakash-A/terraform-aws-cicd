@@ -51,3 +51,13 @@ jobs:
       - name: Terraform Apply
         working-directory: terraform
         run: terraform apply -auto-approve
+        
+      - name: Wait for 1 Hour
+        run: | 
+          echo "Infrastructure will be destroyed after 1 hour."
+          echo "Waiting..." sleep 360
+      - name: Terraform Destroy  
+        if: always()
+        run: terraform destroy -auto-approve
+        
+        
